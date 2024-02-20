@@ -1,10 +1,10 @@
 # Just count the stupid dice
 import random
 
-def roll(dice):
-    for die in dice:
+#def roll(dice):
+#    for die in dice:
         # XXX: I don't even know what this function does
-        continue
+#        continue
 
 class Die:
     """
