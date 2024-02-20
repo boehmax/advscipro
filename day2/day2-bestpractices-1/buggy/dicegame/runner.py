@@ -4,7 +4,6 @@ from .die import Die
 class GameRunner:
 
     def __init__(self):
-        self.dice = Die.create_dice(5)
         self.reset()
 
     def reset(self):
@@ -20,14 +19,14 @@ class GameRunner:
 
     @classmethod
     def run(cls):
-        # Probably counts wins or something.
-        # Great variable name, 10/10.
-        c = 0
+        c = 0 # counter for rounds
+        runner = cls()
+       
         while True:
-            runner = cls()
-
+          
             print("Round {}\n".format(runner.round))
-
+            runner.dice = Die.create_dice(5)
+            
             for die in runner.dice:
                 print(die.show())
 
@@ -54,7 +53,7 @@ class GameRunner:
 
             prompt = input("Would you like to play again?[Y/n]: ")
 
-            if prompt.lower() == 'y' or prompt == '':
+       	    if prompt.lower() == 'y' or prompt == '':
                 continue
             else:
                 break
