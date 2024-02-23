@@ -1,5 +1,11 @@
-#mpi.py
 from mpi4py import MPI
-com = MPI.COMM_WORLD
-rank = com.Get_rank()
-print("Rank" ,rank)
+
+def main():
+    comm = MPI.COMM_WORLD
+    rank = comm.Get_rank()
+    size = comm.Get_size()
+
+    print("Hello from process {}/{}".format(rank, size))
+
+if __name__ == "__main__":
+    main()
