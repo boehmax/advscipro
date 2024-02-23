@@ -36,6 +36,145 @@
 <h1>Welcome to Simple Math’s documentation!<a class="headerlink" href="#welcome-to-simple-math-s-documentation" title="Permalink to this heading">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<span class="target" id="module-simple_math"></span><p>A collection of simple math operations</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="simple_math.poly_first">
+<span class="sig-prename descclassname"><span class="pre">simple_math.</span></span><span class="sig-name descname"><span class="pre">poly_first</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">a0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">a1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simple_math.poly_first" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluate a first-degree polynomial at a given point.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>x</strong><span class="classifier">int or float</span></dt><dd><p>The point at which to evaluate the polynomial.</p>
+</dd>
+<dt><strong>a0</strong><span class="classifier">int or float</span></dt><dd><p>The coefficient for the constant term.</p>
+</dd>
+<dt><strong>a1</strong><span class="classifier">int or float</span></dt><dd><p>The coefficient for the linear term.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">int or float</span></dt><dd><p>The value of the polynomial <cite>a0 + a1*x</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="simple_math.poly_second">
+<span class="sig-prename descclassname"><span class="pre">simple_math.</span></span><span class="sig-name descname"><span class="pre">poly_second</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">a0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">a1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">a2</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simple_math.poly_second" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluate a second-degree polynomial at a given point.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>x</strong><span class="classifier">int or float</span></dt><dd><p>The point at which to evaluate the polynomial.</p>
+</dd>
+<dt><strong>a0</strong><span class="classifier">int or float</span></dt><dd><p>The coefficient for the constant term.</p>
+</dd>
+<dt><strong>a1</strong><span class="classifier">int or float</span></dt><dd><p>The coefficient for the linear term.</p>
+</dd>
+<dt><strong>a2</strong><span class="classifier">int or float</span></dt><dd><p>The coefficient for the quadratic term.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">int or float</span></dt><dd><p>The value of the polynomial <cite>a0 + a1*x + a2*x**2</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="simple_math.simple_add">
+<span class="sig-prename descclassname"><span class="pre">simple_math.</span></span><span class="sig-name descname"><span class="pre">simple_add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simple_math.simple_add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform simple addition of two numbers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>a</strong><span class="classifier">int or float</span></dt><dd><p>The first number.</p>
+</dd>
+<dt><strong>b</strong><span class="classifier">int or float</span></dt><dd><p>The second number.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">int or float</span></dt><dd><p>The result of adding <cite>a</cite> and <cite>b</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="simple_math.simple_div">
+<span class="sig-prename descclassname"><span class="pre">simple_math.</span></span><span class="sig-name descname"><span class="pre">simple_div</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simple_math.simple_div" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform simple division of two numbers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>a</strong><span class="classifier">int or float</span></dt><dd><p>The dividend.</p>
+</dd>
+<dt><strong>b</strong><span class="classifier">int or float</span></dt><dd><p>The divisor (must be non-zero).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">float</span></dt><dd><p>The result of dividing <cite>a</cite> by <cite>b</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="simple_math.simple_mult">
+<span class="sig-prename descclassname"><span class="pre">simple_math.</span></span><span class="sig-name descname"><span class="pre">simple_mult</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simple_math.simple_mult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform simple multiplication of two numbers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>a</strong><span class="classifier">int or float</span></dt><dd><p>The first factor.</p>
+</dd>
+<dt><strong>b</strong><span class="classifier">int or float</span></dt><dd><p>The second factor.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">int or float</span></dt><dd><p>The result of multiplying <cite>a</cite> and <cite>b</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="simple_math.simple_sub">
+<span class="sig-prename descclassname"><span class="pre">simple_math.</span></span><span class="sig-name descname"><span class="pre">simple_sub</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simple_math.simple_sub" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform simple subtraction of two numbers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>a</strong><span class="classifier">int or float</span></dt><dd><p>The minuend.</p>
+</dd>
+<dt><strong>b</strong><span class="classifier">int or float</span></dt><dd><p>The subtrahend.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">int or float</span></dt><dd><p>The result of subtracting <cite>b</cite> from <cite>a</cite>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 <section id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">¶</a></h1>
